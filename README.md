@@ -6,7 +6,7 @@ Vehicle insurance fraud is a significant problem that involves false or exaggera
 In this Jupyter notebook, an extensive analysis of the data has been conducted, including exploring its characteristics, splitting it into training, validation, and testing sets using a stratified approach, and pre-processing it for machine learning. Various techniques such as encoding categorical features and scaling numerical features have been employed to ensure optimal performance of the models. Then, different algorithms, including logistic regression, random forest, and XGBoost, have been trained and fine-tuned using random search CV with 5-fold cross-validation. After comparing their performance, the best ML model was selected based on precision, recall, and F1 score. Finally, ANOVA test is used to explore the feature importances to providing insights into the important predictors for fraud detection.
 
 
-### Dataset
+### Dataset Overview
 The dataset used in this project contains the following features used in the context of vehicle insurance fraud detection:
 
 #### Time related features:
