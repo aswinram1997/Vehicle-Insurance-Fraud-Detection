@@ -9,7 +9,7 @@ In this Jupyter notebook, an extensive analysis of the data has been conducted, 
 ### Dataset
 The dataset used in this project contains the following features used in the context of vehicle insurance fraud detection:
 
-##### Time related features:
+#### Time related features:
 - Month: The month in which the policy was issued or the claim was made.
 - WeekOfMonth: The week number in the month in which the policy was issued or the claim was made.
 - DayOfWeek: The day of the week on which the policy was issued or the claim was made.
@@ -20,7 +20,7 @@ The dataset used in this project contains the following features used in the con
 - Days_Policy_Claim: The number of days between policy issuance and the claim.
 - Year: The year in which the policy was issued or the claim was made.
 
-##### Policy and vehicle related features:
+#### Policy and vehicle related features:
 - AgentType: The type of insurance agent who sold the policy.
 - PolicyType: The type of policy (e.g., comprehensive, third party) taken out by the policyholder.
 - PolicyNumber: The unique identifier of the insurance policy.
@@ -38,7 +38,7 @@ The dataset used in this project contains the following features used in the con
 - NumberOfSuppliments: The number of additional insurance supplements taken out by the policyholder.
 - NumberOfCars: The number of cars insured under the policy.
 
-##### Accident related features:
+#### Accident related features:
 - Sex: The gender of the policyholder or the driver involved in the accident.
 - MaritalStatus: The marital status of the policyholder or the driver involved in the accident.
 - Age: The age of the policyholder or the driver involved in the accident.
