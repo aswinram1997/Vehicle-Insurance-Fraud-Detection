@@ -1,9 +1,7 @@
 # Vehicle Insurance Fraud Detection
 
 ## Project Overview
-Vehicle insurance fraud is a significant problem that involves false or exaggerated claims following an accident. Fraudsters may stage accidents, fabricate injuries, or engage in other deceptive practices to make claims. To address this issue, a kaggle dataset (*https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection*) which includes information on vehicle attributes, accident details, and policy information has been used. The primary objective of this project is to develop a machine learning model that can assist insurance companies in identifying fraudulent claims.
-
-
+Vehicle insurance fraud is a significant problem that involves false or exaggerated claims following an accident. Fraudsters may stage accidents, fabricate injuries, or engage in other deceptive practices to make claims. To address this issue, a kaggle dataset (*https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection*) which includes information on vehicle attributes, accident details, and policy information has been used. The primary objective of this project is to develop a machine learning model that can assist insurance companies in identifying fraudulent claims. This ML model can help insurance companies to prioritize and investigate claims that are identified as high-risk, potentially preventing them from making payouts on fraudulent claims. Additionally, by identifying fraudulent claims, insurance companies can deter fraudsters from attempting to commit fraud, which can help to reduce the overall incidence of fraud in the company.<br>
 
 ## Dataset Overview
 The dataset used in this project contains the following features used in the context of vehicle insurance fraud detection:
@@ -44,10 +42,14 @@ The dataset used in this project contains the following features used in the con
 - Fault: The party at fault in the accident.
 - PoliceReportFiled: Whether a police report was filed for the accident.
 - WitnessPresent: Whether a witness was present at the accident.
-- AddressChange_Claim: Whether the policyholder changed their address after making the claim.
-
-
+- AddressChange_Claim: Whether the policyholder changed their address after making the claim.<br>
 
 ## Methodology
-In this Jupyter notebook, an extensive analysis of the data has been conducted, including exploring its characteristics, splitting it into training, validation, and testing sets using a stratified approach, and pre-processing it for machine learning. Various techniques such as encoding categorical features and scaling numerical features have been employed to ensure optimal performance of the models. Then, different algorithms, including logistic regression, random forest, and XGBoost, have been trained and fine-tuned using random search CV with 5-fold cross-validation. After comparing their performance, the best ML model was selected based on precision, recall, and F1 score. Finally, ANOVA test is used to explore the feature importances to providing insights into the important predictors for fraud detection.
+In this Jupyter notebook, an extensive analysis of the data has been conducted, including exploring its characteristics, splitting it into training, validation, and testing sets using a stratified approach, and pre-processing it for machine learning. Various techniques such as encoding categorical features and scaling numerical features have been employed to ensure optimal performance of the models. Then, different algorithms, including logistic regression, random forest, and XGBoost, have been trained and fine-tuned using random search CV with 5-fold cross-validation. After comparing their performance, the best ML model was selected based on precision, recall, and F1 score. Finally, ANOVA test is used to explore the feature importances for the Test Set to provide insights into the important predictors for fraud detection.<br>
+
+## Results
+The best performing machine learning model was the XGBoost algorithm with an F1 score of 1. This model outperformed the other models, including logistic regression and random forest. The model also achieved high precision and recall scores, indicating that it was effective in identifying fraudulent claims. Feature importance analysis revealed that Day of the Week, Make, Month, Month Claimeed were some of the top predictors of fraud.<br>
+
+## Conclusion
+The development of an ML model that can assist insurance companies in detecting fraudulent claims is a crucial step in preventing and reducing insurance fraud. This project has demonstrated that the XGBoost algorithm, when trained on a dataset containing policy, vehicle, and accident-related features, can effectively identify fraudulent claims with high precision and recall. The top predictors identified by the model can also provide insights into the factors that contribute to insurance fraud. Therefore, this ML model can be useful for insurance companies in prioritizing and investigating claims, reducing payouts on fraudulent claims, and deterring fraudsters from attempting to commit fraud.<br>
 
