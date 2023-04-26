@@ -38,7 +38,7 @@ The dataset used in this project contains the following features used in the con
 - NumberOfSuppliments: The number of additional insurance supplements taken out by the policyholder.
 - NumberOfCars: The number of cars insured under the policy.
 
-##### Accident related features"
+##### Accident related features:
 - Sex: The gender of the policyholder or the driver involved in the accident.
 - MaritalStatus: The marital status of the policyholder or the driver involved in the accident.
 - Age: The age of the policyholder or the driver involved in the accident.
