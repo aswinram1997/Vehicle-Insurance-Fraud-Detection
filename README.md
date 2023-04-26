@@ -4,6 +4,7 @@
 Vehicle insurance fraud is a significant problem that involves false or exaggerated claims following an accident. Fraudsters may stage accidents, fabricate injuries, or engage in other deceptive practices to make claims. To address this issue, a kaggle dataset (*https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection*) which includes information on vehicle attributes, accident details, and policy information has been used. The primary objective of this project is to develop a machine learning model that can assist insurance companies in identifying fraudulent claims.
 
 
+
 ### Dataset Overview
 The dataset used in this project contains the following features used in the context of vehicle insurance fraud detection:
 
@@ -44,6 +45,8 @@ The dataset used in this project contains the following features used in the con
 - PoliceReportFiled: Whether a police report was filed for the accident.
 - WitnessPresent: Whether a witness was present at the accident.
 - AddressChange_Claim: Whether the policyholder changed their address after making the claim.
+
+
 
 ### Methodology
 In this Jupyter notebook, an extensive analysis of the data has been conducted, including exploring its characteristics, splitting it into training, validation, and testing sets using a stratified approach, and pre-processing it for machine learning. Various techniques such as encoding categorical features and scaling numerical features have been employed to ensure optimal performance of the models. Then, different algorithms, including logistic regression, random forest, and XGBoost, have been trained and fine-tuned using random search CV with 5-fold cross-validation. After comparing their performance, the best ML model was selected based on precision, recall, and F1 score. Finally, ANOVA test is used to explore the feature importances to providing insights into the important predictors for fraud detection.
