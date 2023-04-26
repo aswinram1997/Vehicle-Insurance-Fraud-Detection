@@ -4,7 +4,7 @@ Vehicle insurance fraud is a significant problem that involves false or exaggera
 ### Dataset
 The dataset used in this project contains the following features used in the context of vehicle insurance fraud detection:
 
--Month: The month in which the policy was issued or the claim was made.
+- Month: The month in which the policy was issued or the claim was made.
 -WeekOfMonth: The week number in the month in which the policy was issued or the claim was made.
 -DayOfWeek: The day of the week on which the policy was issued or the claim was made.
 -Make: The make of the vehicle insured.
