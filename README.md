@@ -1,7 +1,7 @@
 # Vehicle Insurance Fraud Detection
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/102771069/234909247-6e38bacc-da54-4fae-a9ca-29339b1b2b7a.png" , width="70%"/>
+  <img src="https://user-images.githubusercontent.com/102771069/234909247-6e38bacc-da54-4fae-a9ca-29339b1b2b7a.png" , width="50%"/>
 </p>
 
 ## Project Overview
