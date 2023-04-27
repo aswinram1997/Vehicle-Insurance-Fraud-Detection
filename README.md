@@ -1,5 +1,9 @@
 # Vehicle Insurance Fraud Detection
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102771069/234909247-6e38bacc-da54-4fae-a9ca-29339b1b2b7a.png" />
+</p>
+
 ## Project Overview
 Vehicle insurance fraud is a significant problem that involves false or exaggerated claims following an accident. Fraudsters may stage accidents, fabricate injuries, or engage in other deceptive practices to make claims. To address this issue, a kaggle dataset (*https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection*) which includes information on vehicle attributes, accident details, and policy information has been used. The primary objective of this project is to develop a machine learning model that can assist insurance companies in identifying fraudulent claims. This ML model can help insurance companies to prioritize and investigate claims that are identified as high-risk, potentially preventing them from making payouts on fraudulent claims. Additionally, by identifying fraudulent claims, insurance companies can deter fraudsters from attempting to commit fraud, which can help to reduce the overall incidence of fraud in the company.<br>
 
