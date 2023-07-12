@@ -74,7 +74,7 @@ To ensure scalability and ease of deployment, the API endpoint was containerized
 ## Running the API Locally
 To run the credit risk assessment API locally, you can follow these steps:
 
-1. Clone the project repository: `git clone https://github.com/aswinram1997/Vehicle-Insurance-Fraud-Detection.git`
+1. Clone the project repository: `git clone https://github.com/aswinram1997/Vehicle-Insurance-Fraud-Detection-API.git`
 
 2. Install Docker and ensure it is running properly on your machine.
 
