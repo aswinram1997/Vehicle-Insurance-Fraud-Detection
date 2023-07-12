@@ -48,8 +48,6 @@ The dataset used in this project contains the following features used in the con
 - AddressChange_Claim: Whether the policyholder changed their address after making the claim.<br>
 
 ## Methodology
-In this Jupyter notebook, an extensive analysis of the data has been conducted, including exploring its characteristics, splitting it into training, validation, and testing sets using a stratified approach, and pre-processing it for machine learning. Various techniques such as encoding categorical features and scaling numerical features have been employed to ensure optimal performance of the models. Then, different algorithms, including Logistic Regression, Support Vector Machine, and XGBoost classifiers, have been trained and fine-tuned using random search CV with 5-fold cross-validation. After comparing their performance, the best ML model was selected based on precision, recall, and F1 score. Finally, after selecting the best model, a model interpretation analysis is conducted to gain valuable insights into the key predictors used in fraud detection.
-
 The project follows a typical machine learning workflow consisting of exploratory data analysis (EDA), data splitting, preprocessing, modeling, and evaluation. Additionally, a comparison of ML algorithms, including Logistic Regression, Support Vector Machine, and XGBoost classifiers, was performed to determine the winning model. The chosen model was then utilized to build a FAST API endpoint. Finally, the API endpoint was containerized using Docker for scalability. The resulting containerized API provides an accessible and scalable solution for credit risk assessment, contributing to efficient fraud detection in insurance claims.
 
 #### Exploratory Data Analysis (EDA):
